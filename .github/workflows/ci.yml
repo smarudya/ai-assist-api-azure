@@ -19,4 +19,4 @@ jobs:
       - name: Build
         run: dotnet build AiAssistApiAzure.sln --configuration Release --no-restore
       - name: Test
-        run: dotnet test AiAssist.Api.Tests/AiAssist.Api.Tests.csproj --configuration Release --no-build
+        run: dotnet test AiAssistApiAzure.sln --configuration Release --no-build --verbosity normal
