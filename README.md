@@ -1,6 +1,6 @@
 # ai-assist-api-azure
 
-Thin ASP.NET Core 8 portfolio project for Deloitte Senior Cloud Software Engineer (Job 48802): a small AI assist API that demonstrates practical AI integration patterns without becoming the "hero project."
+Thin ASP.NET Core 8 portfolio project: a small AI assist API that demonstrates practical AI integration patterns without becoming the "hero project."
 
 ## What this includes
 - `POST /api/assist` endpoint for prompt -> assist response
@@ -44,8 +44,3 @@ If any required value is missing, the app automatically stays on `MockAiClient`.
 - Do not commit keys.
 - Keep token limits/rate limits enabled.
 - Use mock mode for local development unless Azure validation is needed.
-
-## JD 48802 mapping (AI interest signal)
-- Shows cloud API design with operational controls (rate limiting + health checks).
-- Demonstrates AI/ML integration via provider abstraction and safe default behavior.
-- Includes delivery hygiene expected in production teams (tests, Docker, CI, docs).
