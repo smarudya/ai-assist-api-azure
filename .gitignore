@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+TestResults/
+*.user
+*.suo
+*.DS_Store
+*.log
+*.nupkg
+*.snupkg
+appsettings.Local.json
+secrets.json
